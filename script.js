@@ -3,3 +3,6 @@ const changeParagraph = () => {
   paragraph.textContent =
     "This text has changed because you clicked the button!";
 };
+
+const button = document.querySelector("#myButton");
+button.addEventListener("click", changeParagraph);
